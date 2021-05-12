@@ -15,7 +15,7 @@
 {
     "SnackName":"Chocho",
     "SnackPrice":15000,
-    "SnackStock":,
+    "SnackStock":3,
     "SnackCategoryID":4,
     "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1lzyNq4__3AysIZCg2QBQQ6F8a4EqGpPC"
 },
