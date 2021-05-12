@@ -1,49 +1,383 @@
 [{
-    "SnackName":"Noodle",
-    "SnackPrice":12000,
-    "SnackStock":100,
-    "SnackCategoryID":2,
-    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1uvhwUVkwolbFbWsSTGTRMiNjk71i477W"
+	"SnackCategoryID":2,
+	"SnackName":"Myojo Mapo Men: Mapo Tofu Cup Ramen (1 Cup)",
+	"SnackPrice":35000,
+	"SnackStock":50,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1Z_rmIj_qy_vY76IfU-fCTpbYQ54jV-iY"
 },
+
 {
-    "SnackName":"Chips",
+	"SnackCategoryID":2,
+	"SnackName":"Nissin Raoh: Rich Miso Ramen (1 Cup)",
+	"SnackPrice":45000,
+	"SnackStock":30,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1Jn4cFy9N9-vixLW1vL6wEsOffWGPoeOd"
+},
+
+{
+	"SnackCategoryID":2,
+	"SnackName":"Pokemon Noodle: Soy Sauce Flavor (1 Cup)",
+	"SnackPrice":35000,
+	"SnackStock":35,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1eftBvozS4L2MW4634PQ-ccdmw9H7loX5"
+},
+
+{
+	"SnackCategoryID":2,
+	"SnackName":"Nissin: European Cheese Curry Cup Noodle (1 Cup)",
+	"SnackPrice":35000,
+	"SnackStock":30,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=10YRpoTY9thx7AG6AucD3nRkVrAZqzi-P"
+},
+
+{
+	"SnackCategoryID":2,
+	"SnackName":"Sugomen: Hakata Tonkotsu Ramen (1 Cup)",
+	"SnackPrice":45000,
+	"SnackStock":25,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1RTkKsJgvMME64rHfMd2MFefp8o4OSr7e"
+},
+
+{
+	"SnackCategoryID":2,
+	"SnackName":"Nissin Raoh: Shoyu Soy Sauce Ramen (1 Cup)",
+	"SnackPrice":45000,
+	"SnackStock":40,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1DVyGfRWiQVuJ6vj4leJaJ0RgvxYtMdD6"
+},
+
+{
+	"SnackCategoryID":2,
+	"SnackName":"Samyang Hot Chicken Ramen Original Multipack (5 Pcs)",
+	"SnackPrice":175000,
+	"SnackStock":30,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1TL65UT4gN5S-zZF0EjUGGqVWWj087L_t"
+},
+
+{
+	"SnackCategoryID":2,
+	"SnackName":"Samyang Hot Chicken Ramen Carbonara Multipack (5 Pcs)",
+	"SnackPrice":175000,
+	"SnackStock":30,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1ooqUa5_F6240f4_et3JxZtA_0PN6Am_m"
+},
+
+{
+	"SnackCategoryID":3,
+	"SnackName":"Suppa Mucho Chips: Plum (1 Bag)",
+	"SnackPrice":25000,
+	"SnackStock":25,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=17aqVlIa0xXvI3GEqL-qwpkFiq8xghWH_"
+},
+
+{
+	"SnackCategoryID":3,
+	"SnackName":"Lotus Root Chips: Plum Flavor (1 Bag)",
+	"SnackPrice":25000,
+	"SnackStock":30,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1a_29Pcbvxynb3jjLMEPPEzzh5yx0YsDl"
+},
+
+{
+	"SnackCategoryID":3,
+	"SnackName":"Potato Chips: Kansai Dashi Soy Sauce (1 Bag)",
+	"SnackPrice":25000,
+	"SnackStock":40,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1dyWTM0SOLVmHvfrIG_Pa8AGDZbDs1iSD"
+},
+
+{
+	"SnackCategoryID":3,
+	"SnackName":"Potato Chips: Hokkaido Rich Butter (1 Bag)",
+	"SnackPrice":25000,
+	"SnackStock":35,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1AZpECMvY82AoOl_x7H0xlywuVsTnGX8A"
+},
+
+{
+	"SnackCategoryID":3,
+	"SnackName":"Jaga Choco Potato Chips (12 Cups)",
+	"SnackPrice":185000,
+	"SnackStock":20,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1PevZGS5d8IPmj3W8aGUnOOcz_AymHtIl"
+},
+
+{
+	"SnackCategoryID":3,
+	"SnackName":"Pure Potato Chips: Sesame Oil + Salt (1 Bag)",
+	"SnackPrice":25000,
+	"SnackStock":50,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1PB4lENfKtnl6hW56BXjxzTbArZXjamhJ"
+},
+
+{
+	"SnackCategoryID":3,
+	"SnackName":"Potato Snack: Curry Flavor (20 Packs, 60 Pieces)",
+	"SnackPrice":315000,
+	"SnackStock":20,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1soJJUHytnYyTY7NT5_zSYMXtGgiOzjok"
+},
+
+{
+	"SnackCategoryID":3,
+	"SnackName":"Super Heart Chiple: Garlic (1 Bag)",
+	"SnackPrice":25000,
+	"SnackStock":40,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1wXvuzX49289SntrfczU5TALMNvQLCmMv"
+},
+
+{
+	"SnackCategoryID":4,
+	"SnackName":"Japanese Kit Kat: Otona no Amasa White (12 Pieces)",
+	"SnackPrice":55000,
+	"SnackStock":35,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1zNtxQ3KybBVXSbyUiNNRH38XUiCHFHHD"
+},
+
+{
+	"SnackCategoryID":4,
+	"SnackName":"Matcha Chocolate Daifuku Mochi (13 Pieces)",
+	"SnackPrice":30000,
+	"SnackStock":40,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1hVgDdBgmMpSz7_ZfddUY9ubfNifgMEFk"
+},
+
+{
+	"SnackCategoryID":4,
+	"SnackName":"Mugikko Chocolate Barley Puffs (20 Packs)",
+	"SnackPrice":155000,
+	"SnackStock":20,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1uy1fes3FG8Mu3bn-12YBE_uQx7gYsmc2"
+},
+
+{
+	"SnackCategoryID":4,
+	"SnackName":"Pocky: Almond Crush (2 Packs)",
+	"SnackPrice":25000,
+	"SnackStock":50,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1J1xOOPbTz4hnYbRUKA6HouhAWz44w_o_"
+},
+
+{
+	"SnackCategoryID":4,
+	"SnackName":"Japanese Kit Kat: Hojicha Tea Otona No Amasa (13 Pieces)",
+	"SnackPrice":25000,
+	"SnackStock":45,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1DKvL_CUQDCQbjDRQ_gQ90E8Ug-D04qsF"
+},
+
+{
+	"SnackCategoryID":4,
+	"SnackName":"Pocky: Zeitaku Almond Milk (10 Packs)",
+	"SnackPrice":180000,
+	"SnackStock":30,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1vvHB4mfc0VvlbjNtzyCSu9lazpHU99wl"
+},
+
+{
+	"SnackCategoryID":4,
+	"SnackName":"Pocky: Zeitaku Milk Chocolate (10 Packs)",
+	"SnackPrice":180000,
+	"SnackStock":30,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1npA0vLNqBr6wqFER2uUuws6Ee_ZatFmT"
+},
+
+{
+	"SnackCategoryID":4,
+	"SnackName":"Shiroi Koibito White + Black (24 Pieces)",
+	"SnackPrice":350000,
+	"SnackStock":20,
+	"SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1wZ7Y9AWwgfp46GK1wLFqUl4F39Dh7kOo"
+},
+
+{
+    "SnackCategoryID":5,
+    "SnackName":"Funwari Meijin Mochi Puffs: Hokkaido Cheese",
+    "SnackPrice":30000,
+    "SnackStock":25,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1K9qVwk37LjCQ8qo3pdbG56gwjJJJgp6h"
+},
+
+{
+    "SnackCategoryID":5,
+    "SnackName":"Salt and Camembert Cheese Cracker",
+    "SnackPrice":10000,
+    "SnackStock":25,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1s7PqIpOV9f2dQGujlEVNp5Vua1-N9cuu"
+},
+
+{
+    "SnackCategoryID":5,
+    "SnackName":"Mini Baked Cheesecake (12 Pieces)",
+    "SnackPrice":200000,
+    "SnackStock":20,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1K8jXmy9M6olrLWW0ihPnZ1BGSJ43SxJZ"
+},
+
+{
+    "SnackCategoryID":5,
+    "SnackName":"Salty Butter + Camembert Cheese Cookie (12 Pieces)",
+    "SnackPrice":100000,
+    "SnackStock":10,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1Lf4MPLhoCTiLKTWEDW9dxLUbFKoFVUmM"
+},
+
+{
+    "SnackCategoryID":5,
+    "SnackName":"Tokyo Banana Cheesecake (4 pieces)",
+    "SnackPrice":120000,
+    "SnackStock":30,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1QXguTmVuThQ5BPSYO1VgT7WqM9GJaJIt"
+},
+
+{
+    "SnackCategoryID":5,
+    "SnackName":"Lemon and Cream Cheese Cracker",
     "SnackPrice":10000,
     "SnackStock":50,
-    "SnackCategoryID":3,
-    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1hkj3CH9gacJXo6l9ckKtq93gnJXwEub0"
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1GyMoPscoo96XLD6P80A-mwj87tfdrSiI"
 },
+
 {
-    "SnackName":"Chocho",
-    "SnackPrice":15000,
-    "SnackStock":3,
-    "SnackCategoryID":4,
-    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1lzyNq4__3AysIZCg2QBQQ6F8a4EqGpPC"
-},
-{
-    "SnackName":"Cheese",
-    "SnackPrice":20000,
-    "SnackStock":22,
     "SnackCategoryID":5,
-    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1bQurv0VgfEhn-O6Xizs26CwTN93P3wsn"
+    "SnackName":"Honey and Gorgonzola Cheese Cracker",
+    "SnackPrice":10000,
+    "SnackStock":50,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1X-3IUYnMoIek6CX8QhEkHwyyeVa_CRS2"
 },
+
 {
-    "SnackName":"Beverage",
-    "SnackPrice":30000,
-    "SnackStock":23,
+    "SnackCategoryID":5,
+    "SnackName":"Hot Kid Want Want Senbei Cheese Flavour 108gr",
+    "SnackPrice":75000,
+    "SnackStock":40,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1vmYdZ3HSzl2md12tw3ougsHDKH1U5pOE"
+},
+
+{
     "SnackCategoryID":6,
-    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1yU2UnbDre392Y22iynyWtKb9r_Z9Dh1d"
+    "SnackName":"Sakura Matcha (20 g)",
+    "SnackPrice":100000,
+    "SnackStock":20,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1OPVGLwPKrixvoo3OCKRm5TttMHleYac9"
 },
+
 {
-    "SnackName":"Other",
-    "SnackPrice":50000,
-    "SnackStock":32,
+    "SnackCategoryID":6,
+    "SnackName":"Sweet Sakura Tea (4 Sachets)",
+    "SnackPrice":75000,
+    "SnackStock":20,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1orCwmlJ-tdjcGfFWvqnTLeYxsU8VsGxD"
+},
+
+{
+    "SnackCategoryID":6,
+    "SnackName":"Uji Matcha Au Lait (5 Sticks)",
+    "SnackPrice":130000,
+    "SnackStock":10,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1Saz11tWVfaHGLFmgOfYCk6sdSFFj4ZVG"
+},
+
+{
+    "SnackCategoryID":6,
+    "SnackName":"Hoshino Hojicha Latte (7 Sticks)",
+    "SnackPrice":150000,
+    "SnackStock":15,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1tsAU-sllbrYviO3P0ZhYqn-QyjOkgRZc"
+},
+
+{
+    "SnackCategoryID":6,
+    "SnackName":"Banana Milk",
+    "SnackPrice":35000,
+    "SnackStock":50,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1AOmM0cxtk7uKf7X-LrgxV9R1jLLhUTYh"
+},
+
+{
+    "SnackCategoryID":6,
+    "SnackName":"88th Night Green Tea (10 Tea Bags)",
+    "SnackPrice":135000,
+    "SnackStock":30,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1i2ffRsMBMFdBuFkSM6NUDZzzcwiHsavV"
+},
+
+{
+    "SnackCategoryID":6,
+    "SnackName":"Ginger and Yuzu Herbal Tea (10 Sticks)",
+    "SnackPrice":95000,
+    "SnackStock":40,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1RZwEAZO0dVPRHNAvgyIBy1ig0hG_Ex4e"
+},
+
+{
+    "SnackCategoryID":6,
+    "SnackName":"Sencha Tea (1 Bag)",
+    "SnackPrice":12000,
+    "SnackStock":50,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1IqCWe1KpMUoWVBRLJTxFimtxoDZKiIh_"
+},
+
+{
     "SnackCategoryID":7,
-    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1A-k-IchP0xHR10EHUjr_baMzXB9VODGq"
+    "SnackName":"Natural Yeast Bread: Hokkaido Cream",
+    "SnackPrice":45000,
+    "SnackStock":40,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1WPIULeCUYJaa-awv-9J-TBr0QZyVhUP7"
 },
+
 {
-    "SnackName":"Chips",
-    "SnackPrice":15000,
-    "SnackStock":34,
-    "SnackCategoryID":3,
-    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1hkj3CH9gacJXo6l9ckKtq93gnJXwEub0"
+    "SnackCategoryID":7,
+    "SnackName":"Koganeimo Golden Sweet Potato Cake",
+    "SnackPrice":30000,
+    "SnackStock":30,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1vsM1S3LWV_OpF0AJN5KA3VpBKBbuL6FN"
+},
+
+{
+    "SnackCategoryID":7,
+    "SnackName":"Shinshu Apple Rabbit Manju (20 Pieces)",
+    "SnackPrice":200000,
+    "SnackStock":20,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1h8c0Har-Hcg2Rb7vMi8ofLaYN9EAGukR"
+},
+
+{
+    "SnackCategoryID":7,
+    "SnackName":"Amaou Strawberry Kirara Sandwich Cookie (18 Pieces)",
+    "SnackPrice":230000,
+    "SnackStock":12,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1HQslpk79YlmF9Pe1DwRaKM8yBjLnPnQx"
+},
+
+{
+    "SnackCategoryID":7,
+    "SnackName":"Kyoto Matcha Waffle Sandwich (12 Pieces)",
+    "SnackPrice":100000,
+    "SnackStock":10,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1Zfwfss0HHZZMl_73PsA2SYTvQVKxqw9a"
+},
+
+{
+    "SnackCategoryID":7,
+    "SnackName":"Seaweed Tempura: Setouchi Sudachi Citrus Flavor (1 Bag)",
+    "SnackPrice":45000,
+    "SnackStock":30,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1RilAkFvSEAaPbfK2yUewq2CUEJYW_B8E"
+},
+
+{
+    "SnackCategoryID":7,
+    "SnackName":"Takoyaki Tei Corn Puffs (1 Bag)",
+    "SnackPrice":35000,
+    "SnackStock":35,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1-iPE5Warj8tjot90Ba31kVsnPRGwJzQZ"
+},
+
+{
+    "SnackCategoryID":7,
+    "SnackName":"Candied Yuzu Peel (1 Bag)",
+    "SnackPrice":20000,
+    "SnackStock":30,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1t2j9y7sb9GAKPORi2XhianrQlFqpDK7j"
 }]
