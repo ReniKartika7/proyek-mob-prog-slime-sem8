@@ -1,0 +1,49 @@
+[{
+    "SnackName":"Noodle",
+    "SnackPrice":12000,
+    "SnackStock":100,
+    "SnackCategoryID":2,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1uvhwUVkwolbFbWsSTGTRMiNjk71i477W"
+},
+{
+    "SnackName":"Chips",
+    "SnackPrice":10000,
+    "SnackStock":50,
+    "SnackCategoryID":3,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1hkj3CH9gacJXo6l9ckKtq93gnJXwEub0"
+},
+{
+    "SnackName":"Chocho",
+    "SnackPrice":15000,
+    "SnackStock":,
+    "SnackCategoryID":4,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1lzyNq4__3AysIZCg2QBQQ6F8a4EqGpPC"
+},
+{
+    "SnackName":"Cheese",
+    "SnackPrice":20000,
+    "SnackStock":22,
+    "SnackCategoryID":5,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1bQurv0VgfEhn-O6Xizs26CwTN93P3wsn"
+},
+{
+    "SnackName":"Beverage",
+    "SnackPrice":30000,
+    "SnackStock":23,
+    "SnackCategoryID":6,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1yU2UnbDre392Y22iynyWtKb9r_Z9Dh1d"
+},
+{
+    "SnackName":"Other",
+    "SnackPrice":50000,
+    "SnackStock":32,
+    "SnackCategoryID":7,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1A-k-IchP0xHR10EHUjr_baMzXB9VODGq"
+},
+{
+    "SnackName":"Chips",
+    "SnackPrice":15000,
+    "SnackStock":34,
+    "SnackCategoryID":3,
+    "SnackCoverUrl":"https://drive.google.com/uc?export=view&id=1hkj3CH9gacJXo6l9ckKtq93gnJXwEub0"
+}]
