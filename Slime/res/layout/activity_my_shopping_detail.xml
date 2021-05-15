@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyShoppingDetail"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:elevation="5dp"
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/btnMyShoppingDetailBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/ic_back_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="My Shopping Detail"
+                android:textColor="@color/black"
+                android:letterSpacing="0.1"
+                android:textSize="20sp"
+                android:fontFamily="@font/roquen"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textShoppingDetailDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+
+            android:text="Date Purchased : "
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+                android:layout_weight="1"
+
+                android:text="Sub Total"
+                android:textSize="17sp"
+                android:textColor="@color/navy"/>
+
+            <TextView
+                android:id="@+id/textShoppingDetailSubTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+
+                android:text="Rp55000"
+                android:textSize="17sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+                android:layout_weight="1"
+
+                android:text="Shipping Fee"
+                android:textSize="17sp"
+                android:textColor="@color/navy"/>
+
+            <TextView
+                android:id="@+id/textShoppingDetailShippingCost"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+
+                android:text="Free"
+                android:textSize="17sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+                android:layout_weight="1"
+
+                android:text="Total"
+                android:textSize="17sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textShoppingDetailTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+
+                android:text="Rp55000"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/navy"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/setting_background"
+
+            android:text="Shipping Address"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textShoppingDetailFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+
+                android:text="Full Name"
+                android:textColor="@color/black"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textShoppingDetailPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+
+                android:text="Phone Number"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/textShoppingDetailAddressDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+
+                android:text="Alamat"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/textShoppingDetailProvince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+
+                android:text="PROVINCE"
+                android:drawableEnd="@drawable/ic_place"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textShoppingDetailQty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="2dp"
+            android:layout_marginBottom="10dp"
+
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="1 item purchased"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerMySHoppingListDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

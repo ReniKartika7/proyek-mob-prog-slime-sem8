@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:elevation="2dp"
+    android:background="@color/white"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/textAddressItemFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+
+        android:text="Full Name"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/textAddressItemPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+
+        android:text="Phone Number"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textAddressItemDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+
+        android:text="Alamat"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textAddressItemProvince"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+
+        android:text="PROVINCE"
+        android:drawableEnd="@drawable/ic_place"
+        android:textSize="15sp"/>
+</LinearLayout>

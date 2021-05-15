@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckOut"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:elevation="5dp"
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/btnCheckOutBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/ic_back_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="Check Out"
+                android:textColor="@color/black"
+                android:letterSpacing="0.1"
+                android:textSize="20sp"
+                android:fontFamily="@font/roquen"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+
+            android:text="Shipping Address"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textCheckOutAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+
+            android:text="Choose Your Address in here"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:drawableEnd="@drawable/ic_next_black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+
+            android:text="Delivery Method"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <ImageView
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:layout_margin="5dp"
+
+                android:src="@drawable/ic_delivery_method"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:gravity="center_vertical"
+
+                android:text="Regular Shipping"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+
+            android:text="Order Summary"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewCheckOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+                android:layout_weight="1"
+
+                android:text="Sub Total"
+                android:textSize="17sp"
+                android:textColor="@color/navy"/>
+
+            <TextView
+                android:id="@+id/textCheckOutSubTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+
+                android:text="Rp55000"
+                android:textSize="17sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+                android:layout_weight="1"
+
+                android:text="Shipping Fee"
+                android:textSize="17sp"
+                android:textColor="@color/navy"/>
+
+            <TextView
+                android:id="@+id/textCheckOutShoppingCost"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+
+                android:text="Free"
+                android:textSize="17sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+                android:layout_weight="1"
+
+                android:text="Total"
+                android:textSize="17sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textCheckOutTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="10dp"
+
+                android:text="Rp55000"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/navy"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBuyNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:paddingVertical="2dp"
+
+            android:textAlignment="center"
+            android:background="@drawable/custom_button_dark"
+            android:fontFamily="@font/acme"
+            android:letterSpacing="0.1"
+            android:text="Buy Now"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

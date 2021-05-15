@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseAddress"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:elevation="5dp"
+            android:background="@color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/btnChooseAddressBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/ic_back_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+
+                android:text="Choose Address"
+                android:textColor="@color/black"
+                android:letterSpacing="0.1"
+                android:textSize="20sp"
+                android:fontFamily="@font/roquen"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="10dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewChooseAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textChooseAddressAddNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/setting_background"
+
+            android:text="Add New Address"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:drawableEnd="@drawable/ic_plus"/>
+
+        <Button
+            android:id="@+id/btnChooseAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="10dp"
+            android:paddingVertical="2dp"
+
+            android:textAlignment="center"
+            android:background="@drawable/custom_button_dark"
+            android:fontFamily="@font/acme"
+            android:letterSpacing="0.1"
+            android:text="Choose Address"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
