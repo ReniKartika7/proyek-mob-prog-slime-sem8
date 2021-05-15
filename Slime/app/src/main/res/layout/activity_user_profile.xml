@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile"
+    android:background="@color/navy"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="My Profile"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roquen"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/buttonUserSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/ic_setting"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/imageUserProfile"
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp"
+
+            android:src="@drawable/ic_user_grey"
+            android:background="@drawable/custom_circle_white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Nama "
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/actor"
+                android:maxLength="15"/>
+
+            <LinearLayout
+                android:id="@+id/layoutEditProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Edit Profile"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/actor"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:src="@drawable/ic_next"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+
+        android:background="@drawable/custom_background_white">
+
+    </LinearLayout>
+
+</LinearLayout>

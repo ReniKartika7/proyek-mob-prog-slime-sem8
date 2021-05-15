@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="10dp"
+    android:padding="15dp"
+    android:background="@drawable/snack_item_view_background"
+    android:elevation="5dp"
+
+    android:id="@+id/linearLayoutSnackItem">
+
+    <ImageView
+        android:id="@+id/imageSnackItem"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/popcorn_black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textSnackItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Snack Name"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/acme"/>
+
+        <TextView
+            android:id="@+id/textSnackItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="sans-serif"
+            android:text="Rp55000"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textSnackItemStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Stock :"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

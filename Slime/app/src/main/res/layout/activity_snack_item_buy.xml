@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SnackItemBuy"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0">
+
+        <ImageView
+            android:id="@+id/imageBackIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="15dp"
+            android:padding="5dp"
+
+            android:src="@drawable/ic_back_black"
+            android:background="@drawable/custom_circle_white"
+            android:elevation="3dp"/>
+
+        <ImageView
+            android:id="@+id/imageSnackBuy"
+            android:layout_width="match_parent"
+            android:layout_height="850px"
+
+            android:src="@drawable/snack1"/>
+
+        <TextView
+            android:id="@+id/textSnackBuyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+
+            android:text="Snack Name"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/textSnackBuyPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+
+            android:text="Rp55000"
+            android:textColor="@color/navy"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/buttonAddNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/custom_button_border_black">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingVertical="5dp"
+
+                    android:layout_gravity="right"
+                    android:src="@drawable/ic_shopping_cart_navy"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingVertical="7dp"
+                android:layout_weight="2"
+
+                android:text="ADD"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonBuyNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/custom_button_buy_now">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="7dp"
+
+                android:text="BUY NOW"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="50dp"
+    android:paddingVertical="30dp"
+    android:background="@color/softred">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Slime"
+            android:textSize="25sp"
+            android:fontFamily="@font/roquen"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txtSkipFragment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+
+            android:text="SKIP"
+            android:textColor="@color/grey"
+            android:textSize="25sp"
+            android:fontFamily="@font/actor"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_marginTop="100dp"
+
+        android:src="@drawable/fast"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="Fast"
+        android:fontFamily="@font/actor"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:letterSpacing="0.05"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Shipping"
+        android:fontFamily="@font/roquen"
+        android:textSize="45sp"
+        android:textColor="@color/white"
+        android:letterSpacing="0.1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="Snacks packed with care and delivered to your doorstep fast and safely. Trust us with your products, we will get it delivered!"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+
+        android:src="@drawable/intro_tab2"/>
+
+</LinearLayout>

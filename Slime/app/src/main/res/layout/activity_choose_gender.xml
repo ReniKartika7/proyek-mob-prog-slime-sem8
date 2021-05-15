@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.reni.Slime.ChooseGender"
+
+    android:background="@color/babyBlue">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+
+        android:textAlignment="center"
+        android:text="Hi Reni,"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:fontFamily="@font/roquen"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"
+        android:text="Choose Your Gender"
+         android:textColor="@color/black"
+        android:textSize="25sp"
+        android:fontFamily="@font/actor"
+        android:letterSpacing="0.05"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@drawable/female"
+            android:background="@drawable/custom_selector"
+
+            android:text="Female"
+            android:textSize="0sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center"
+            android:text="Female"
+            android:textSize="20sp"
+            android:fontFamily="@font/actor"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:button="@drawable/male"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_selector"
+
+            android:text="Male"
+            android:textSize="0sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAlignment="center"
+            android:text="Male"
+            android:textSize="20sp"
+            android:fontFamily="@font/actor"
+            android:textColor="@color/black"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnChooseGenderSignUp"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button_white"
+        android:fontFamily="@font/acme"
+        android:letterSpacing="0.3"
+        android:text="SIGNUP"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/txtChooseGenderSkip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:textAlignment="center"
+        android:text="SKIP"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/actor"/>
+</LinearLayout>
