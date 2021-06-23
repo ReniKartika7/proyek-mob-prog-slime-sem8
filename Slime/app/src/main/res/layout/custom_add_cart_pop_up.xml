@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="800px"
+    android:layout_gravity="bottom"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageAddCartPopUp"
+            android:layout_width="350px"
+            android:layout_height="350px"
+
+            android:src="@drawable/snack1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textAddCartPopUpPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/navy"
+                android:text="Rp55.000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textAddCartPopUpStock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/black"
+                android:text="Stock : "
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+
+            android:text="Quantity"
+            android:textColor="@color/black"
+            android:textSize="19sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/decrementPopUpAddCart"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+
+                android:textColor="@color/white"
+                android:text="-"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/numberPopUpAddCart"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+                android:inputType="number"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/incrementPopUpAddCart"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+
+                android:textColor="@color/black"
+                android:text="+"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center">
+
+        <Button
+            android:id="@+id/btnAddToCart"
+            android:layout_width="750px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:textAlignment="center"
+            android:background="@drawable/custom_button_dark"
+            android:fontFamily="@font/acme"
+            android:letterSpacing="0.1"
+            android:text="ADD TO CART"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
